@@ -19,16 +19,21 @@ namespace T_UAS
         }
         private void frmLogin()
         {
-            frmLogin flog = new frmLogin(this);
+            frmLogin flog = new frmLogin();
             flog.Show();
+        }
+        private void frmReport()
+        {
+            frmStatusBalance freport = new frmStatusBalance();
+            freport.Show();
         }
         public frmUtama()
         {
             InitializeComponent();
-            tsmStatusBalance.Enabled = false;
-            tsmReport.Enabled = false;
-            tsmLogout.Enabled = false;
-            tsmTransaction.Enabled = false;
+            //tsmStatusBalance.Enabled = false;
+            //tsmReport.Enabled = false;
+            //tsmLogout.Enabled = false;
+            //tsmTransaction.Enabled = false;
         }
 
         private void tsmExit_Click(object sender, EventArgs e)
@@ -53,7 +58,7 @@ namespace T_UAS
 
         private void tsmReport_Click(object sender, EventArgs e)
         {
-
+            frmReport();
         }
     }
 }

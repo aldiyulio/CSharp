@@ -12,13 +12,9 @@ namespace T_UAS
 {
     public partial class frmLogin : Form
     {
-        frmUtama frmUtm;
-        public frmLogin(frmUtama frmUtm)
+        public frmLogin()
         {
             InitializeComponent();
-            
-            
-            // frmUtm.Controls["tslStatus"].Text = 
         }
 
         private void btnLogin_Click(object sender, EventArgs e)
