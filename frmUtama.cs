@@ -12,18 +12,11 @@ namespace T_UAS
 {
     public partial class frmUtama : Form
     {
-        string user;
-        public static string test;
         frmRegister freg;
         private void frmRegister()
         {
             freg = new frmRegister();
             freg.Show();
-        }
-        public void setTitle(string user)
-        {
-            tslStatus.Text = user;
-
         }
         private void frmLogin()
         {
@@ -59,7 +52,7 @@ namespace T_UAS
 
         }
 
-        private void frmUtama_Load(object sender, EventArgs e)
+        private void tsmReport_Click(object sender, EventArgs e)
         {
 
         }

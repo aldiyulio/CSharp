@@ -114,6 +114,9 @@
     <EmbeddedResource Include="frmRegister.resx">
       <DependentUpon>frmRegister.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmReport.resx">
+      <DependentUpon>frmReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmStatusBalance.resx">
       <DependentUpon>frmStatusBalance.cs</DependentUpon>
     </EmbeddedResource>

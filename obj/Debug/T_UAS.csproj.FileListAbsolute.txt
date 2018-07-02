@@ -10,3 +10,4 @@ D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan 
 D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmRegister.resources
 D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmLogin.resources
 D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmStatusBalance.resources
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmReport.resources

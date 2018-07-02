@@ -51,10 +51,8 @@
             this.tsmConvert = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmWithdraw = new System.Windows.Forms.ToolStripMenuItem();
             this.tsmExit = new System.Windows.Forms.ToolStripMenuItem();
-            this.numericUpDown1 = new System.Windows.Forms.NumericUpDown();
             this.statusStrip1.SuspendLayout();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).BeginInit();
             this.SuspendLayout();
             // 
             // statusStrip1
@@ -150,6 +148,7 @@
             this.tsmReport.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.R)));
             this.tsmReport.Size = new System.Drawing.Size(276, 22);
             this.tsmReport.Text = "Report (Admin Only)";
+            this.tsmReport.Click += new System.EventHandler(this.tsmReport_Click);
             // 
             // toolStripMenuItem3
             // 
@@ -237,27 +236,12 @@
             this.tsmExit.Text = "Exit";
             this.tsmExit.Click += new System.EventHandler(this.tsmExit_Click);
             // 
-            // numericUpDown1
-            // 
-            this.numericUpDown1.AutoSize = true;
-            this.numericUpDown1.Location = new System.Drawing.Point(35, 61);
-            this.numericUpDown1.Maximum = new decimal(new int[] {
-            100000000,
-            0,
-            0,
-            0});
-            this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 25);
-            this.numericUpDown1.TabIndex = 2;
-            this.numericUpDown1.ThousandsSeparator = true;
-            // 
             // frmUtama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(556, 257);
-            this.Controls.Add(this.numericUpDown1);
             this.Controls.Add(this.statusStrip1);
             this.Controls.Add(this.menuStrip1);
             this.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -267,12 +251,10 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "NIM Genap";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
-            this.Load += new System.EventHandler(this.frmUtama_Load);
             this.statusStrip1.ResumeLayout(false);
             this.statusStrip1.PerformLayout();
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.numericUpDown1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -303,7 +285,6 @@
         private System.Windows.Forms.ToolStripMenuItem tsmConvert;
         private System.Windows.Forms.ToolStripMenuItem tsmWithdraw;
         private System.Windows.Forms.ToolStripMenuItem tsmExit;
-        private System.Windows.Forms.NumericUpDown numericUpDown1;
     }
 }
 

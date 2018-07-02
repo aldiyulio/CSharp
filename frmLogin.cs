@@ -23,8 +23,6 @@ namespace T_UAS
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-             frmUtm = new frmUtama();
-            frmUtm.setTitle(mtbCardNumber.Text);
             
         }
     }
