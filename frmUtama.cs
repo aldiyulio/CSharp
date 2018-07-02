@@ -32,7 +32,7 @@ namespace T_UAS
             InitializeComponent();
             //tsmStatusBalance.Enabled = false;
             //tsmReport.Enabled = false;
-            //tsmLogout.Enabled = false;
+            tsmLogout.Enabled = false;
             //tsmTransaction.Enabled = false;
         }
 
