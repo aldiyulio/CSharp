@@ -1,0 +1,12 @@
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\bin\Debug\T_UAS.exe.config
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\bin\Debug\T_UAS.exe
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\bin\Debug\T_UAS.pdb
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.csprojResolveAssemblyReference.cache
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmUtama.resources
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.Properties.Resources.resources
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.csproj.GenerateResource.Cache
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.exe
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.pdb
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmRegister.resources
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmLogin.resources
+D:\STMIK Mikroskil\2018\Teori dan Praktek Pemrograman Berorientasi Objek dengan C#\Kisi Kisi UAS\UASNimGenap\T_UAS\obj\Debug\T_UAS.frmStatusBalance.resources
