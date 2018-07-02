@@ -12,10 +12,9 @@ namespace T_UAS
 {
     public partial class frmUtama : Form
     {
-        frmRegister freg;
         private void frmRegister()
         {
-            freg = new frmRegister();
+            frmRegister freg = new frmRegister();
             freg.Show();
         }
         private void frmLogin()
