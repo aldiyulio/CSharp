@@ -51,11 +51,6 @@ namespace T_UAS
             frmLogin();
         }
 
-        private void statusStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
-        {
-
-        }
-
         private void tsmReport_Click(object sender, EventArgs e)
         {
             frmReport();
