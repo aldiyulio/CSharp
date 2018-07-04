@@ -227,12 +227,12 @@
             // maskedTextBox1
             // 
             this.maskedTextBox1.Location = new System.Drawing.Point(187, 274);
-            this.maskedTextBox1.Mask = "& & & & & &";
+            this.maskedTextBox1.Mask = "000000";
             this.maskedTextBox1.Name = "maskedTextBox1";
             this.maskedTextBox1.PasswordChar = '*';
+            this.maskedTextBox1.PromptChar = '-';
             this.maskedTextBox1.Size = new System.Drawing.Size(97, 25);
             this.maskedTextBox1.TabIndex = 5;
-            this.maskedTextBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.maskedTextBox1.MaskInputRejected += new System.Windows.Forms.MaskInputRejectedEventHandler(this.maskedTextBox1_MaskInputRejected);
             // 
             // button1
