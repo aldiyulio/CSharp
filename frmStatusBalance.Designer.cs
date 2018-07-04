@@ -28,379 +28,379 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.label1 = new System.Windows.Forms.Label();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.maskedTextBox3 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
-            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label14 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox4.SuspendLayout();
+            this.lblCard = new System.Windows.Forms.Label();
+            this.gboCustomerPin = new System.Windows.Forms.GroupBox();
+            this.btnPIN = new System.Windows.Forms.Button();
+            this.btnChange = new System.Windows.Forms.Button();
+            this.mtbReNewPin = new System.Windows.Forms.MaskedTextBox();
+            this.mtbNewPin = new System.Windows.Forms.MaskedTextBox();
+            this.mtbOldPin = new System.Windows.Forms.MaskedTextBox();
+            this.lblReNewPin = new System.Windows.Forms.Label();
+            this.lblNewPin = new System.Windows.Forms.Label();
+            this.lblOldPin = new System.Windows.Forms.Label();
+            this.txtName = new System.Windows.Forms.TextBox();
+            this.lblName = new System.Windows.Forms.Label();
+            this.gboCredit = new System.Windows.Forms.GroupBox();
+            this.lblTotalPoint = new System.Windows.Forms.Label();
+            this.lblCBPoint = new System.Windows.Forms.Label();
+            this.lblBPoint = new System.Windows.Forms.Label();
+            this.lblTotalAngka = new System.Windows.Forms.Label();
+            this.lblTotal = new System.Windows.Forms.Label();
+            this.lblCashbackAngka = new System.Windows.Forms.Label();
+            this.lblCashback = new System.Windows.Forms.Label();
+            this.lblBalanceAngka = new System.Windows.Forms.Label();
+            this.lblBal = new System.Windows.Forms.Label();
+            this.gboClass = new System.Windows.Forms.GroupBox();
+            this.lblNextPoint = new System.Windows.Forms.Label();
+            this.lblNextClass = new System.Windows.Forms.Label();
+            this.lblClass = new System.Windows.Forms.Label();
+            this.lblNextAngka = new System.Windows.Forms.Label();
+            this.gboClassInformation = new System.Windows.Forms.GroupBox();
+            this.lblMin100K = new System.Windows.Forms.Label();
+            this.lblExecutive = new System.Windows.Forms.Label();
+            this.lblMin50K = new System.Windows.Forms.Label();
+            this.lblPremium = new System.Windows.Forms.Label();
+            this.lblCardNumber = new System.Windows.Forms.Label();
+            this.gboCustomerPin.SuspendLayout();
+            this.gboCredit.SuspendLayout();
+            this.gboClass.SuspendLayout();
+            this.gboClassInformation.SuspendLayout();
             this.SuspendLayout();
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(19, 16);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 18);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Card Number    :";
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.button2);
-            this.groupBox1.Controls.Add(this.button1);
-            this.groupBox1.Controls.Add(this.maskedTextBox3);
-            this.groupBox1.Controls.Add(this.maskedTextBox2);
-            this.groupBox1.Controls.Add(this.maskedTextBox1);
-            this.groupBox1.Controls.Add(this.label5);
-            this.groupBox1.Controls.Add(this.label4);
-            this.groupBox1.Controls.Add(this.label3);
-            this.groupBox1.Controls.Add(this.textBox1);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(22, 44);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(409, 182);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "Customer Name && PIN";
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(250, 144);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(140, 25);
-            this.button2.TabIndex = 6;
-            this.button2.Text = "Change PIN";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(250, 82);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(140, 25);
-            this.button1.TabIndex = 6;
-            this.button1.Text = "Change Name";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
-            // maskedTextBox3
-            // 
-            this.maskedTextBox3.Location = new System.Drawing.Point(184, 144);
-            this.maskedTextBox3.Mask = "000000";
-            this.maskedTextBox3.Name = "maskedTextBox3";
-            this.maskedTextBox3.PromptChar = '-';
-            this.maskedTextBox3.Size = new System.Drawing.Size(60, 25);
-            this.maskedTextBox3.TabIndex = 5;
-            // 
-            // maskedTextBox2
-            // 
-            this.maskedTextBox2.Location = new System.Drawing.Point(184, 113);
-            this.maskedTextBox2.Mask = "000000";
-            this.maskedTextBox2.Name = "maskedTextBox2";
-            this.maskedTextBox2.PromptChar = '-';
-            this.maskedTextBox2.Size = new System.Drawing.Size(60, 25);
-            this.maskedTextBox2.TabIndex = 5;
-            // 
-            // maskedTextBox1
-            // 
-            this.maskedTextBox1.Location = new System.Drawing.Point(184, 82);
-            this.maskedTextBox1.Mask = "000000";
-            this.maskedTextBox1.Name = "maskedTextBox1";
-            this.maskedTextBox1.PromptChar = '-';
-            this.maskedTextBox1.Size = new System.Drawing.Size(60, 25);
-            this.maskedTextBox1.TabIndex = 5;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(10, 147);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(168, 18);
-            this.label5.TabIndex = 4;
-            this.label5.Text = "Re-Confirm New PIN :";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(10, 116);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(168, 18);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "New PIN (6-Digit)  :";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(10, 85);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(168, 18);
-            this.label3.TabIndex = 2;
-            this.label3.Text = "Old PIN            :";
-            // 
-            // textBox1
-            // 
-            this.textBox1.Location = new System.Drawing.Point(13, 47);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(377, 25);
-            this.textBox1.TabIndex = 1;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(10, 26);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(56, 18);
-            this.label2.TabIndex = 0;
-            this.label2.Text = "Name :";
-            // 
-            // groupBox2
-            // 
-            this.groupBox2.Controls.Add(this.label14);
-            this.groupBox2.Controls.Add(this.label11);
-            this.groupBox2.Controls.Add(this.label8);
-            this.groupBox2.Controls.Add(this.label13);
-            this.groupBox2.Controls.Add(this.label12);
-            this.groupBox2.Controls.Add(this.label10);
-            this.groupBox2.Controls.Add(this.label9);
-            this.groupBox2.Controls.Add(this.label7);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Location = new System.Drawing.Point(22, 232);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(200, 175);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Credit";
-            // 
-            // label7
-            // 
-            this.label7.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label7.Location = new System.Drawing.Point(16, 41);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(123, 27);
-            this.label7.TabIndex = 1;
-            this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(13, 23);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(80, 18);
-            this.label6.TabIndex = 0;
-            this.label6.Text = "Balance :";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(145, 45);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(48, 18);
-            this.label8.TabIndex = 2;
-            this.label8.Text = "Point";
-            // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(13, 71);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(88, 18);
-            this.label9.TabIndex = 0;
-            this.label9.Text = "Cashback :";
-            // 
-            // label10
-            // 
-            this.label10.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label10.Location = new System.Drawing.Point(16, 89);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(123, 27);
-            this.label10.TabIndex = 1;
-            this.label10.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label11
-            // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(145, 93);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(48, 18);
-            this.label11.TabIndex = 2;
-            this.label11.Text = "Point";
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(13, 121);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(144, 18);
-            this.label12.TabIndex = 0;
-            this.label12.Text = "Total Purchased :";
-            // 
-            // label13
-            // 
-            this.label13.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label13.Location = new System.Drawing.Point(16, 139);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(123, 27);
-            this.label13.TabIndex = 1;
-            this.label13.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label14
-            // 
-            this.label14.AutoSize = true;
-            this.label14.Location = new System.Drawing.Point(145, 143);
-            this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(48, 18);
-            this.label14.TabIndex = 2;
-            this.label14.Text = "Point";
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.label18);
-            this.groupBox3.Controls.Add(this.label16);
-            this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.label17);
-            this.groupBox3.Location = new System.Drawing.Point(231, 277);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(200, 130);
-            this.groupBox3.TabIndex = 3;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Class";
-            // 
-            // label15
-            // 
-            this.label15.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label15.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.Location = new System.Drawing.Point(6, 21);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(188, 50);
-            this.label15.TabIndex = 0;
-            this.label15.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Location = new System.Drawing.Point(6, 75);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(184, 18);
-            this.label16.TabIndex = 1;
-            this.label16.Text = "Remain to Next Class :";
-            // 
-            // label17
-            // 
-            this.label17.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label17.Location = new System.Drawing.Point(6, 94);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(134, 27);
-            this.label17.TabIndex = 1;
-            this.label17.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(146, 98);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(48, 18);
-            this.label18.TabIndex = 2;
-            this.label18.Text = "Point";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label22);
-            this.groupBox4.Controls.Add(this.label21);
-            this.groupBox4.Controls.Add(this.label20);
-            this.groupBox4.Controls.Add(this.label19);
-            this.groupBox4.Location = new System.Drawing.Point(22, 413);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(409, 109);
-            this.groupBox4.TabIndex = 4;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Card Class Level Up Information";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(28, 21);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(120, 18);
-            this.label19.TabIndex = 0;
-            this.label19.Text = "To \"PREMIUM\" :";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(53, 39);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(296, 18);
-            this.label20.TabIndex = 1;
-            this.label20.Text = "Total Purchased minimum 50.000 point";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(28, 62);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(136, 18);
-            this.label21.TabIndex = 0;
-            this.label21.Text = "To \"EXECUTIVE\" :";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(53, 80);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(296, 18);
-            this.label22.TabIndex = 1;
-            this.label22.Text = "Total Purchased minimum 50.000 point";
-            // 
-            // label23
-            // 
-            this.label23.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.label23.Location = new System.Drawing.Point(161, 9);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(126, 32);
-            this.label23.TabIndex = 5;
-            this.label23.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // lblCard
+            // 
+            this.lblCard.AutoSize = true;
+            this.lblCard.Location = new System.Drawing.Point(19, 16);
+            this.lblCard.Name = "lblCard";
+            this.lblCard.Size = new System.Drawing.Size(136, 18);
+            this.lblCard.TabIndex = 0;
+            this.lblCard.Text = "Card Number    :";
+            // 
+            // gboCustomerPin
+            // 
+            this.gboCustomerPin.Controls.Add(this.btnPIN);
+            this.gboCustomerPin.Controls.Add(this.btnChange);
+            this.gboCustomerPin.Controls.Add(this.mtbReNewPin);
+            this.gboCustomerPin.Controls.Add(this.mtbNewPin);
+            this.gboCustomerPin.Controls.Add(this.mtbOldPin);
+            this.gboCustomerPin.Controls.Add(this.lblReNewPin);
+            this.gboCustomerPin.Controls.Add(this.lblNewPin);
+            this.gboCustomerPin.Controls.Add(this.lblOldPin);
+            this.gboCustomerPin.Controls.Add(this.txtName);
+            this.gboCustomerPin.Controls.Add(this.lblName);
+            this.gboCustomerPin.Location = new System.Drawing.Point(22, 44);
+            this.gboCustomerPin.Name = "gboCustomerPin";
+            this.gboCustomerPin.Size = new System.Drawing.Size(409, 182);
+            this.gboCustomerPin.TabIndex = 1;
+            this.gboCustomerPin.TabStop = false;
+            this.gboCustomerPin.Text = "Customer Name && PIN";
+            // 
+            // btnPIN
+            // 
+            this.btnPIN.Location = new System.Drawing.Point(250, 144);
+            this.btnPIN.Name = "btnPIN";
+            this.btnPIN.Size = new System.Drawing.Size(140, 25);
+            this.btnPIN.TabIndex = 6;
+            this.btnPIN.Text = "Change PIN";
+            this.btnPIN.UseVisualStyleBackColor = true;
+            // 
+            // btnChange
+            // 
+            this.btnChange.Location = new System.Drawing.Point(250, 82);
+            this.btnChange.Name = "btnChange";
+            this.btnChange.Size = new System.Drawing.Size(140, 25);
+            this.btnChange.TabIndex = 6;
+            this.btnChange.Text = "Change Name";
+            this.btnChange.UseVisualStyleBackColor = true;
+            // 
+            // mtbReNewPin
+            // 
+            this.mtbReNewPin.Location = new System.Drawing.Point(184, 144);
+            this.mtbReNewPin.Mask = "000000";
+            this.mtbReNewPin.Name = "mtbReNewPin";
+            this.mtbReNewPin.PromptChar = '-';
+            this.mtbReNewPin.Size = new System.Drawing.Size(60, 25);
+            this.mtbReNewPin.TabIndex = 5;
+            // 
+            // mtbNewPin
+            // 
+            this.mtbNewPin.Location = new System.Drawing.Point(184, 113);
+            this.mtbNewPin.Mask = "000000";
+            this.mtbNewPin.Name = "mtbNewPin";
+            this.mtbNewPin.PromptChar = '-';
+            this.mtbNewPin.Size = new System.Drawing.Size(60, 25);
+            this.mtbNewPin.TabIndex = 5;
+            // 
+            // mtbOldPin
+            // 
+            this.mtbOldPin.Location = new System.Drawing.Point(184, 82);
+            this.mtbOldPin.Mask = "000000";
+            this.mtbOldPin.Name = "mtbOldPin";
+            this.mtbOldPin.PromptChar = '-';
+            this.mtbOldPin.Size = new System.Drawing.Size(60, 25);
+            this.mtbOldPin.TabIndex = 5;
+            // 
+            // lblReNewPin
+            // 
+            this.lblReNewPin.AutoSize = true;
+            this.lblReNewPin.Location = new System.Drawing.Point(10, 147);
+            this.lblReNewPin.Name = "lblReNewPin";
+            this.lblReNewPin.Size = new System.Drawing.Size(168, 18);
+            this.lblReNewPin.TabIndex = 4;
+            this.lblReNewPin.Text = "Re-Confirm New PIN :";
+            // 
+            // lblNewPin
+            // 
+            this.lblNewPin.AutoSize = true;
+            this.lblNewPin.Location = new System.Drawing.Point(10, 116);
+            this.lblNewPin.Name = "lblNewPin";
+            this.lblNewPin.Size = new System.Drawing.Size(168, 18);
+            this.lblNewPin.TabIndex = 3;
+            this.lblNewPin.Text = "New PIN (6-Digit)  :";
+            // 
+            // lblOldPin
+            // 
+            this.lblOldPin.AutoSize = true;
+            this.lblOldPin.Location = new System.Drawing.Point(10, 85);
+            this.lblOldPin.Name = "lblOldPin";
+            this.lblOldPin.Size = new System.Drawing.Size(168, 18);
+            this.lblOldPin.TabIndex = 2;
+            this.lblOldPin.Text = "Old PIN            :";
+            // 
+            // txtName
+            // 
+            this.txtName.Location = new System.Drawing.Point(13, 47);
+            this.txtName.Name = "txtName";
+            this.txtName.Size = new System.Drawing.Size(377, 25);
+            this.txtName.TabIndex = 1;
+            // 
+            // lblName
+            // 
+            this.lblName.AutoSize = true;
+            this.lblName.Location = new System.Drawing.Point(10, 26);
+            this.lblName.Name = "lblName";
+            this.lblName.Size = new System.Drawing.Size(56, 18);
+            this.lblName.TabIndex = 0;
+            this.lblName.Text = "Name :";
+            // 
+            // gboCredit
+            // 
+            this.gboCredit.Controls.Add(this.lblTotalPoint);
+            this.gboCredit.Controls.Add(this.lblCBPoint);
+            this.gboCredit.Controls.Add(this.lblBPoint);
+            this.gboCredit.Controls.Add(this.lblTotalAngka);
+            this.gboCredit.Controls.Add(this.lblTotal);
+            this.gboCredit.Controls.Add(this.lblCashbackAngka);
+            this.gboCredit.Controls.Add(this.lblCashback);
+            this.gboCredit.Controls.Add(this.lblBalanceAngka);
+            this.gboCredit.Controls.Add(this.lblBal);
+            this.gboCredit.Location = new System.Drawing.Point(22, 232);
+            this.gboCredit.Name = "gboCredit";
+            this.gboCredit.Size = new System.Drawing.Size(200, 175);
+            this.gboCredit.TabIndex = 2;
+            this.gboCredit.TabStop = false;
+            this.gboCredit.Text = "Credit";
+            // 
+            // lblTotalPoint
+            // 
+            this.lblTotalPoint.AutoSize = true;
+            this.lblTotalPoint.Location = new System.Drawing.Point(145, 143);
+            this.lblTotalPoint.Name = "lblTotalPoint";
+            this.lblTotalPoint.Size = new System.Drawing.Size(48, 18);
+            this.lblTotalPoint.TabIndex = 2;
+            this.lblTotalPoint.Text = "Point";
+            // 
+            // lblCBPoint
+            // 
+            this.lblCBPoint.AutoSize = true;
+            this.lblCBPoint.Location = new System.Drawing.Point(145, 93);
+            this.lblCBPoint.Name = "lblCBPoint";
+            this.lblCBPoint.Size = new System.Drawing.Size(48, 18);
+            this.lblCBPoint.TabIndex = 2;
+            this.lblCBPoint.Text = "Point";
+            // 
+            // lblBPoint
+            // 
+            this.lblBPoint.AutoSize = true;
+            this.lblBPoint.Location = new System.Drawing.Point(145, 45);
+            this.lblBPoint.Name = "lblBPoint";
+            this.lblBPoint.Size = new System.Drawing.Size(48, 18);
+            this.lblBPoint.TabIndex = 2;
+            this.lblBPoint.Text = "Point";
+            // 
+            // lblTotalAngka
+            // 
+            this.lblTotalAngka.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblTotalAngka.Location = new System.Drawing.Point(16, 139);
+            this.lblTotalAngka.Name = "lblTotalAngka";
+            this.lblTotalAngka.Size = new System.Drawing.Size(123, 27);
+            this.lblTotalAngka.TabIndex = 1;
+            this.lblTotalAngka.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblTotal
+            // 
+            this.lblTotal.AutoSize = true;
+            this.lblTotal.Location = new System.Drawing.Point(13, 121);
+            this.lblTotal.Name = "lblTotal";
+            this.lblTotal.Size = new System.Drawing.Size(144, 18);
+            this.lblTotal.TabIndex = 0;
+            this.lblTotal.Text = "Total Purchased :";
+            // 
+            // lblCashbackAngka
+            // 
+            this.lblCashbackAngka.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblCashbackAngka.Location = new System.Drawing.Point(16, 89);
+            this.lblCashbackAngka.Name = "lblCashbackAngka";
+            this.lblCashbackAngka.Size = new System.Drawing.Size(123, 27);
+            this.lblCashbackAngka.TabIndex = 1;
+            this.lblCashbackAngka.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblCashback
+            // 
+            this.lblCashback.AutoSize = true;
+            this.lblCashback.Location = new System.Drawing.Point(13, 71);
+            this.lblCashback.Name = "lblCashback";
+            this.lblCashback.Size = new System.Drawing.Size(88, 18);
+            this.lblCashback.TabIndex = 0;
+            this.lblCashback.Text = "Cashback :";
+            // 
+            // lblBalanceAngka
+            // 
+            this.lblBalanceAngka.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblBalanceAngka.Location = new System.Drawing.Point(16, 41);
+            this.lblBalanceAngka.Name = "lblBalanceAngka";
+            this.lblBalanceAngka.Size = new System.Drawing.Size(123, 27);
+            this.lblBalanceAngka.TabIndex = 1;
+            this.lblBalanceAngka.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // lblBal
+            // 
+            this.lblBal.AutoSize = true;
+            this.lblBal.Location = new System.Drawing.Point(13, 23);
+            this.lblBal.Name = "lblBal";
+            this.lblBal.Size = new System.Drawing.Size(80, 18);
+            this.lblBal.TabIndex = 0;
+            this.lblBal.Text = "Balance :";
+            // 
+            // gboClass
+            // 
+            this.gboClass.Controls.Add(this.lblNextPoint);
+            this.gboClass.Controls.Add(this.lblNextClass);
+            this.gboClass.Controls.Add(this.lblClass);
+            this.gboClass.Controls.Add(this.lblNextAngka);
+            this.gboClass.Location = new System.Drawing.Point(231, 277);
+            this.gboClass.Name = "gboClass";
+            this.gboClass.Size = new System.Drawing.Size(200, 130);
+            this.gboClass.TabIndex = 3;
+            this.gboClass.TabStop = false;
+            this.gboClass.Text = "Class";
+            // 
+            // lblNextPoint
+            // 
+            this.lblNextPoint.AutoSize = true;
+            this.lblNextPoint.Location = new System.Drawing.Point(146, 98);
+            this.lblNextPoint.Name = "lblNextPoint";
+            this.lblNextPoint.Size = new System.Drawing.Size(48, 18);
+            this.lblNextPoint.TabIndex = 2;
+            this.lblNextPoint.Text = "Point";
+            // 
+            // lblNextClass
+            // 
+            this.lblNextClass.AutoSize = true;
+            this.lblNextClass.Location = new System.Drawing.Point(6, 75);
+            this.lblNextClass.Name = "lblNextClass";
+            this.lblNextClass.Size = new System.Drawing.Size(184, 18);
+            this.lblNextClass.TabIndex = 1;
+            this.lblNextClass.Text = "Remain to Next Class :";
+            // 
+            // lblClass
+            // 
+            this.lblClass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblClass.Font = new System.Drawing.Font("Cooper Black", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblClass.Location = new System.Drawing.Point(6, 21);
+            this.lblClass.Name = "lblClass";
+            this.lblClass.Size = new System.Drawing.Size(188, 50);
+            this.lblClass.TabIndex = 0;
+            this.lblClass.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lblNextAngka
+            // 
+            this.lblNextAngka.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblNextAngka.Location = new System.Drawing.Point(6, 94);
+            this.lblNextAngka.Name = "lblNextAngka";
+            this.lblNextAngka.Size = new System.Drawing.Size(134, 27);
+            this.lblNextAngka.TabIndex = 1;
+            this.lblNextAngka.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            // 
+            // gboClassInformation
+            // 
+            this.gboClassInformation.Controls.Add(this.lblMin100K);
+            this.gboClassInformation.Controls.Add(this.lblExecutive);
+            this.gboClassInformation.Controls.Add(this.lblMin50K);
+            this.gboClassInformation.Controls.Add(this.lblPremium);
+            this.gboClassInformation.Location = new System.Drawing.Point(22, 413);
+            this.gboClassInformation.Name = "gboClassInformation";
+            this.gboClassInformation.Size = new System.Drawing.Size(409, 109);
+            this.gboClassInformation.TabIndex = 4;
+            this.gboClassInformation.TabStop = false;
+            this.gboClassInformation.Text = "Card Class Level Up Information";
+            // 
+            // lblMin100K
+            // 
+            this.lblMin100K.AutoSize = true;
+            this.lblMin100K.Location = new System.Drawing.Point(53, 80);
+            this.lblMin100K.Name = "lblMin100K";
+            this.lblMin100K.Size = new System.Drawing.Size(304, 18);
+            this.lblMin100K.TabIndex = 1;
+            this.lblMin100K.Text = "Total Purchased minimum 100.000 point";
+            // 
+            // lblExecutive
+            // 
+            this.lblExecutive.AutoSize = true;
+            this.lblExecutive.Location = new System.Drawing.Point(28, 62);
+            this.lblExecutive.Name = "lblExecutive";
+            this.lblExecutive.Size = new System.Drawing.Size(136, 18);
+            this.lblExecutive.TabIndex = 0;
+            this.lblExecutive.Text = "To \"EXECUTIVE\" :";
+            // 
+            // lblMin50K
+            // 
+            this.lblMin50K.AutoSize = true;
+            this.lblMin50K.Location = new System.Drawing.Point(53, 39);
+            this.lblMin50K.Name = "lblMin50K";
+            this.lblMin50K.Size = new System.Drawing.Size(296, 18);
+            this.lblMin50K.TabIndex = 1;
+            this.lblMin50K.Text = "Total Purchased minimum 50.000 point";
+            // 
+            // lblPremium
+            // 
+            this.lblPremium.AutoSize = true;
+            this.lblPremium.Location = new System.Drawing.Point(28, 21);
+            this.lblPremium.Name = "lblPremium";
+            this.lblPremium.Size = new System.Drawing.Size(120, 18);
+            this.lblPremium.TabIndex = 0;
+            this.lblPremium.Text = "To \"PREMIUM\" :";
+            // 
+            // lblCardNumber
+            // 
+            this.lblCardNumber.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.lblCardNumber.Location = new System.Drawing.Point(161, 9);
+            this.lblCardNumber.Name = "lblCardNumber";
+            this.lblCardNumber.Size = new System.Drawing.Size(170, 32);
+            this.lblCardNumber.TabIndex = 5;
+            this.lblCardNumber.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // frmStatusBalance
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(453, 535);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.groupBox4);
-            this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox2);
-            this.Controls.Add(this.groupBox1);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.lblCardNumber);
+            this.Controls.Add(this.gboClassInformation);
+            this.Controls.Add(this.gboClass);
+            this.Controls.Add(this.gboCredit);
+            this.Controls.Add(this.gboCustomerPin);
+            this.Controls.Add(this.lblCard);
             this.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.Margin = new System.Windows.Forms.Padding(4);
@@ -409,14 +409,14 @@
             this.Name = "frmStatusBalance";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Account Status/Balance";
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
+            this.gboCustomerPin.ResumeLayout(false);
+            this.gboCustomerPin.PerformLayout();
+            this.gboCredit.ResumeLayout(false);
+            this.gboCredit.PerformLayout();
+            this.gboClass.ResumeLayout(false);
+            this.gboClass.PerformLayout();
+            this.gboClassInformation.ResumeLayout(false);
+            this.gboClassInformation.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -424,38 +424,38 @@
 
         #endregion
 
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox3;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox2;
-        private System.Windows.Forms.MaskedTextBox maskedTextBox1;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label23;
+        private System.Windows.Forms.Label lblCard;
+        private System.Windows.Forms.GroupBox gboCustomerPin;
+        private System.Windows.Forms.Button btnPIN;
+        private System.Windows.Forms.Button btnChange;
+        private System.Windows.Forms.MaskedTextBox mtbReNewPin;
+        private System.Windows.Forms.MaskedTextBox mtbNewPin;
+        private System.Windows.Forms.MaskedTextBox mtbOldPin;
+        private System.Windows.Forms.Label lblReNewPin;
+        private System.Windows.Forms.Label lblNewPin;
+        private System.Windows.Forms.Label lblOldPin;
+        private System.Windows.Forms.TextBox txtName;
+        private System.Windows.Forms.Label lblName;
+        private System.Windows.Forms.GroupBox gboCredit;
+        private System.Windows.Forms.Label lblBalanceAngka;
+        private System.Windows.Forms.Label lblBal;
+        private System.Windows.Forms.Label lblTotalPoint;
+        private System.Windows.Forms.Label lblCBPoint;
+        private System.Windows.Forms.Label lblBPoint;
+        private System.Windows.Forms.Label lblTotalAngka;
+        private System.Windows.Forms.Label lblTotal;
+        private System.Windows.Forms.Label lblCashbackAngka;
+        private System.Windows.Forms.Label lblCashback;
+        private System.Windows.Forms.GroupBox gboClass;
+        private System.Windows.Forms.Label lblNextPoint;
+        private System.Windows.Forms.Label lblNextClass;
+        private System.Windows.Forms.Label lblClass;
+        private System.Windows.Forms.Label lblNextAngka;
+        private System.Windows.Forms.GroupBox gboClassInformation;
+        private System.Windows.Forms.Label lblMin100K;
+        private System.Windows.Forms.Label lblExecutive;
+        private System.Windows.Forms.Label lblMin50K;
+        private System.Windows.Forms.Label lblPremium;
+        private System.Windows.Forms.Label lblCardNumber;
     }
 }

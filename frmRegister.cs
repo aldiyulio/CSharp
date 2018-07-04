@@ -17,17 +17,17 @@ namespace T_UAS
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void btnRegister_Click(object sender, EventArgs e)
         {
             if (mtbPIN.Text != mtbRePIN.Text)
             {
                 MessageBox.Show("PIN not Matched", "PIN ERROR");
             }
             else
-                MessageBox.Show(string.Format("New Card Successfully Registered as \"{0}\"",txtCustomerName.Text),"Registration Succeed");
+                MessageBox.Show(string.Format("New Card Successfully Registered as \"{0}\"", txtCustomerName.Text), "Registration Succeed");
         }
 
-        private void button2_Click(object sender, EventArgs e)
+        private void btnCancel_Click(object sender, EventArgs e)
         {
             this.Close();
         }

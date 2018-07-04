@@ -66,7 +66,6 @@
             this.statusStrip1.Size = new System.Drawing.Size(556, 23);
             this.statusStrip1.TabIndex = 0;
             this.statusStrip1.Text = "statusStrip1";
-            this.statusStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.statusStrip1_ItemClicked);
             // 
             // tslStatus
             // 

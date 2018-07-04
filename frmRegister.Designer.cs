@@ -36,8 +36,8 @@
             this.txtCustomerName = new System.Windows.Forms.TextBox();
             this.mtbPIN = new System.Windows.Forms.MaskedTextBox();
             this.mtbRePIN = new System.Windows.Forms.MaskedTextBox();
-            this.button1 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btnRegister = new System.Windows.Forms.Button();
+            this.btnCancel = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lblCardNumber
@@ -113,34 +113,34 @@
             this.mtbRePIN.Size = new System.Drawing.Size(112, 25);
             this.mtbRePIN.TabIndex = 7;
             // 
-            // button1
+            // btnRegister
             // 
-            this.button1.Location = new System.Drawing.Point(320, 73);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(88, 56);
-            this.button1.TabIndex = 8;
-            this.button1.Text = "REGISTER";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.btnRegister.Location = new System.Drawing.Point(320, 73);
+            this.btnRegister.Name = "btnRegister";
+            this.btnRegister.Size = new System.Drawing.Size(88, 56);
+            this.btnRegister.TabIndex = 8;
+            this.btnRegister.Text = "REGISTER";
+            this.btnRegister.UseVisualStyleBackColor = true;
+            this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
-            // button2
+            // btnCancel
             // 
-            this.button2.Location = new System.Drawing.Point(420, 73);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(88, 56);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "CANCEL";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.btnCancel.Location = new System.Drawing.Point(420, 73);
+            this.btnCancel.Name = "btnCancel";
+            this.btnCancel.Size = new System.Drawing.Size(88, 56);
+            this.btnCancel.TabIndex = 9;
+            this.btnCancel.Text = "CANCEL";
+            this.btnCancel.UseVisualStyleBackColor = true;
+            this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // frmRegister
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(525, 143);
+            this.ClientSize = new System.Drawing.Size(517, 135);
             this.ControlBox = false;
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.btnCancel);
+            this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.mtbRePIN);
             this.Controls.Add(this.mtbPIN);
             this.Controls.Add(this.txtCustomerName);
@@ -173,7 +173,7 @@
         private System.Windows.Forms.TextBox txtCustomerName;
         private System.Windows.Forms.MaskedTextBox mtbPIN;
         private System.Windows.Forms.MaskedTextBox mtbRePIN;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnRegister;
+        private System.Windows.Forms.Button btnCancel;
     }
 }

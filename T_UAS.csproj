@@ -46,10 +46,22 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmWithdraw.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmWithdraw.designer.cs">
+      <DependentUpon>frmWithdraw.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShopping.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShopping.designer.cs">
+      <DependentUpon>frmShopping.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmConvert.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="frmConvert.Designer.cs">
+    <Compile Include="frmConvert.designer.cs">
       <DependentUpon>frmConvert.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
@@ -69,12 +81,6 @@
     </Compile>
     <Compile Include="frmReport.Designer.cs">
       <DependentUpon>frmReport.cs</DependentUpon>
-    </Compile>
-    <Compile Include="frmShopping.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmShopping.Designer.cs">
-      <DependentUpon>frmShopping.cs</DependentUpon>
     </Compile>
     <Compile Include="frmStatusBalance.cs">
       <SubType>Form</SubType>
@@ -100,14 +106,20 @@
     <Compile Include="frmUtama.Designer.cs">
       <DependentUpon>frmUtama.cs</DependentUpon>
     </Compile>
-    <Compile Include="frmWithdraw.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="frmWithdraw.Designer.cs">
-      <DependentUpon>frmWithdraw.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmTransfer.resx">
+      <DependentUpon>frmTransfer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmWithdraw.resx">
+      <DependentUpon>frmWithdraw.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShopping.resx">
+      <DependentUpon>frmShopping.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmConvert.resx">
+      <DependentUpon>frmConvert.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -119,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="frmStatusBalance.resx">
       <DependentUpon>frmStatusBalance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTopup.resx">
+      <DependentUpon>frmTopup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmUtama.resx">
       <DependentUpon>frmUtama.cs</DependentUpon>

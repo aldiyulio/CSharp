@@ -16,10 +16,5 @@ namespace T_UAS
         {
             InitializeComponent();
         }
-
-        private void btnLogin_Click(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
